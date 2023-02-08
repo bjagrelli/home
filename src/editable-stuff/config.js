@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Breno",
   middleName: "",
   lastName: "Jones Agrelli",
-  message: " Passionate about changing the world with technology. ",
+  message: " Data Engineer | Python | SQL | Databricks | Azure | GCP ",
   icons: [
     {
       image: "fa-github",
@@ -43,11 +43,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/bjagrelli.png"),
   imageSize: 375,
   message:
     "My name is Breno Jones. I’m 29, Brazilian-Italian, living in Recife, Brazil. I'm a graduate of 2019 from Pernambuco University with a degree in Civil Engineering. I startad my journey in Data Engineering in 2020, during the pandemic, and I fell in love with it since then. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of data engineering.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -60,7 +60,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "bjagrelli", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["bjj_data_scrapping"],
 };
 
 // Leadership SECTION
@@ -71,12 +71,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/bjagrelli.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/bjagrelli.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
